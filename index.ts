@@ -8,6 +8,5 @@ generate(
   2,
   (x) => x <= 8,
   (x) => x + 3,
-  (x) => x * x,
-  3
+  (x) => x * x
 ).subscribe(console.log);
